@@ -1,0 +1,28 @@
+.infoGlobal {
+  display: flex;
+  flex-flow: row wrap;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  border: 5;
+  background-color: rgba(245, 245, 245, 0.5);
+  border-radius: 10px;
+}
+.titulo {
+  text-align: start;
+}
+.tituloBack {
+  max-width: 2000px;
+  border: 5;
+  text-shadow: 0em 0em 0.12em whitesmoke;
+  border-radius: 15px;
+
+  text-align: center;
+}
+
+.app {
+  height: 100vh;
+  background-image: url('./img/dinheiro-bencao-ou-maldicao.jpg');
+  background-position: center;
+}

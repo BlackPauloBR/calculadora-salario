@@ -1,0 +1,24 @@
+.labelInput {
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+  justify-items: center;
+  flex-wrap: wrap;
+  width: 180px;
+  font-weight: bold;
+}
+.color1 {
+  color: #e67e22;
+}
+
+.color2 {
+  color: #c0392b;
+}
+
+.color3 {
+  color: #16a085;
+}
+
+.baseSalary {
+  color: black;
+}

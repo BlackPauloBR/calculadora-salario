@@ -1,0 +1,23 @@
+
+site do algoritmo:
+https://www.todacarreira.com/calculo-salario-liquido/
+
+implementação da barra dinamica:
+https://codesandbox.io/s/react-barras-007z5
+
+Struct:
+*Titulo*
+input: Salário bruto '8000'
+input disabled: Base INSS = recebe o salario bruto 'R$ 8000'
+input disabled: Desconto INSS 'R$ 713,10 (8,91%)'
+input disabled: Base IRPF: 'R$ 7286,90'
+input disabled: Desconto IRPF: 'R$ 1134,54 (14,18%)'
+input disabled: Salário líquido: '76,90%'
+implementação da barra dinamica.
+
+falta implementar ShowBar linha 17-20
+algoritmo que define tamanho das barras, baseado
+no valor do salario;
+
+depois linkar a entrada de dados de App.js
+em props de ShowBar e manipular os valores.
