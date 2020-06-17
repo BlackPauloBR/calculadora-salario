@@ -115,13 +115,18 @@ export default class App extends Component {
             <strong className={css.titulo}>Calculadora Salário Líquido</strong>
             <h5>(vesão sem dependentes, atualização em breve)</h5>
           </h2>
-          <input
-            style={{ width: 300, fontWeight: 'bold' }}
-            type="number"
-            onChange={this.calcSalary}
-            min="0"
-            step="250"
-          />
+           <label style={{ color: 'black', fontWeight: 'bold', fontSize: 13 }}>
+            Salário Bruto:
+            <input
+              style={{ width: 300, fontWeight: 'bold', marginLeft: 8 }}
+              type="number"
+              onChange={this.calcSalary}
+              min="0"
+              step="250"
+              autoFocus
+              placeholder={'ex.: 2380,90'}
+            />
+        </label>
           <div className={css.infoGlobal}>
             <Input
               placeHolder={showBaseINSS}
